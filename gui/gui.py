@@ -43,6 +43,7 @@ def janela():
     # exibir a janela
     win.mainloop()
 
+
 # função para desativar botões
 def troca_estado_botões():
     if botão_iniciar['state'] == 'normal':
@@ -51,4 +52,3 @@ def troca_estado_botões():
     else:
         botão_iniciar['state'] = 'normal'
         botão_parar['state'] = 'disabled'
-
